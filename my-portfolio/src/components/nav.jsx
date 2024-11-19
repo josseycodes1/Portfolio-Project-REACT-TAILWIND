@@ -19,16 +19,17 @@ const nav = () => {
     <>
       <div className="flex items-centre justify-between p-10 lg:flex-row text-white">
           <div> 
-            <a href="#" className="font-extrabold text-3xl font-mono tracking-wider flex items-center"><CgNametag/>JOSSEYCODES</a>
+            <a href="#" className="font-extrabold text-3xl hover:bg-blue-900 rounded-full px-5 py-2
+            font-mono tracking-wider flex items-center"><CgNametag/>JOSSEYCODES</a>
           </div>
           
           <div className="space-x-4">
             <div className='ssm:hidden lg:block space-x-2'>
-                <a href="#" className=" hover:bg-green-800 rounded-full px-5 py-2 text-xl">Skills</a>
-                <a href="#" className=" hover:bg-green-800 rounded-full px-5 py-2 text-xl">About</a>
-                <a href="#" className=" hover:bg-green-800 rounded-full px-5 py-2 text-xl">Portfolio</a>
-                <a href="#" className=" hover:bg-green-800 rounded-full px-5 py-2 text-xl">Testimonials</a>
-                <a href="#" className=" hover:bg-green-800 rounded-full px-5 py-2 text-xl">Contact</a>
+                <a href="#" className=" hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Skills</a>
+                <a href="#" className=" hover:bg-blue-900 rounded-full px-5 py-2 text-xl">About</a>
+                <a href="#" className=" hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Portfolio</a>
+                <a href="#" className=" hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Testimonials</a>
+                <a href="#" className=" hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Contact</a>
             </div>
             <div className='ssm:block lg:hidden'>
               {toggle ? (

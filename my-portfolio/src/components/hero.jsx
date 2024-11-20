@@ -1,5 +1,5 @@
 import {BsFacebook, BsTwitter, BsInstagram, BsPinterest} from 'react-icons/bs';
-import HeroPic from '../assets/pic2.jpg';
+import HeroPic from '../assets/mine1.jpg';
 
 const hero = () => {
   return (
